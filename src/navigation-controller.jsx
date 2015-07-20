@@ -118,7 +118,7 @@ class NavigationController extends React.Component {
   }
 
   componentWillUnmount() {
-    this.__viewSpring.destroy();
+    if (this.__viewSpring) this.__viewSpring.destroy();
   }
 
   /**
