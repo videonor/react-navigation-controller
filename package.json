@@ -8,6 +8,9 @@
   ],
   "license": "MIT",
   "main": "dist/navigation-controller.js",
+  "files": [
+    "src"
+  ],
   "scripts": {
     "start": "webpack-dev-server --content-base examples/ --port 3000 --hot",
     "test": "./node_modules/karma/bin/karma start",
@@ -17,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:aputinski/react-navigation-controller.git"
+    "url": "git@github.com:videonor/react-navigation-controller.git"
   },
   "author": "Adam Putinski",
   "peerDependencies": {
